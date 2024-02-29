@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  29 FEB 2024 02:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  29 FEB 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,6 +1262,10 @@ LaTeX Warning: Reference `eq:11.9.5.26.2' on page 1 undefined on input line 50.
 LaTeX Warning: Reference `eq:11.9.5.26.3' on page 1 undefined on input line 50.
 
 
+
+LaTeX Warning: Reference `eq:eq:11.9.5.26.2' on page 1 undefined on input line 
+60.
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./assq3.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1270,25 +1274,24 @@ Package rerunfilecheck Info: File `assq3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 42518 strings out of 478287
- 988612 string characters out of 5849290
- 1499442 words of memory out of 5000000
- 60013 multiletter control sequences out of 15000+600000
+ 42508 strings out of 478287
+ 988488 string characters out of 5849290
+ 1493443 words of memory out of 5000000
+ 60014 multiletter control sequences out of 15000+600000
  540400 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,13n,96p,409b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assq3.pdf (2 pages, 58207 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on assq3.pdf (2 pages, 51671 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 32 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

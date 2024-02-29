@@ -55,22 +55,11 @@ Y\brak{z}&=X\brak{z}U\brak{z}\\
 X\brak{z}&=\frac{Y\brak{z}}{U\brak{z}}\\
 X\brak{z}&=4\brak{\frac{1}{\brak{1-z^{-1}}}}-\frac{\brak{1+z^{-1}}}{\brak{1-z^{-1}}^2}\\
 &=\frac{\brak{3-5z^{-1}}}{\brak{1-z^{-1}}^2}\\
-&=\frac{3z}{z-1}-\frac{2z}{\brak{z-1}^2}
+&=\frac{3}{1-z^{-1}}-\frac{2z^{-1}}{\brak{1-z^{-1}}^2}
 \end{align}
-Using Contour Integration to find the inverse $Z$-transform,
+refer equation\eqref{eq:eq:11.9.5.26.2} from appendix
 \begin{align}
-    x(n)&=\frac{1}{2\pi j}\oint_{C} X(z) \; z^{n-1} \; dz  \\
-    &=\frac{1}{2\pi j}\oint_{C}\brak{\frac{3}{z-1}-\frac{2}{\brak{z-1}^2}}z^{n-1} \;dz \\
-    R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}  \\
-    R&=R_1+R_2\\
-    R_1&=\frac{1}{\brak {0}!}\lim\limits_{z\to 1}\frac{d^{0}}{dz^{0}}\brak {{(z-1)}\frac{3z^{n}}{z-1}}\\
-    &=\lim\limits_{z\to 1}3z^{n}\\
-    &=3\\
-    R_2&=frac{1}{\brak {1}!}\lim\limits_{z\to 1}\frac{d}{dz}\brak{{(z-1)^2}\frac{-2z^{n}}{\brak{z-1}^2}}\\
-    &=-\lim\limits_{z\to 1}\frac{d}{dz}\brak{2z^{n}}\\
-    &=-\lim\limits_{z\to 1}2nz^{n-1}\\
-    &=-2n\\
-    R&= 3-2n\\
+    x(n)&=3u(n)-2nu(n)\\
     x(n)&=(3-2n)u(n)\\
     \text{First term of AP x(0)} &=3\\
     \text{sum of first two terms is y(2)} &= 4(2) - (2)^2\\
